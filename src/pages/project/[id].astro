@@ -1,0 +1,27 @@
+---
+import project from "#/project.json"
+import { Card } from "@/components/card"
+import { ProjectRoadmap, ResultList } from "@/components/project"
+import { Title } from "@/components/ui/title"
+import DetailLayout from "@/layouts/detail-layout.astro"
+
+export function getStaticPaths() {
+	const projects = [...project.teach.host, ...project.teach["take-part"], ...project.science.host, ...project.science["take-part"]] as Project[]
+	const paths = projects.map(project => ({
+		params: {
+			id: project.id,
+		},
+	}))
+	return paths
+}
+
+const { id } = Astro.params
+const projectTarget = [...project.teach.host, ...project.teach["take-part"], ...project.science.host, ...project.science["take-part"]].find(target => target.id === id)
+---
+
+<DetailLayout content="project" title={projectTarget?.name ?? ""}>
+	<Title subtitle={projectTarget?.period ?? ""} title={projectTarget?.name ?? ""} />
+	<Card content={projectTarget?.description ?? ""} icon="i-mingcute-projector-screen-line" title="项目详情" />
+	<ProjectRoadmap roadmap={projectTarget?.roadmap ?? []} />
+	<ResultList results={projectTarget?.results ?? []} />
+</DetailLayout>

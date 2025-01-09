@@ -1,0 +1,105 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "论文数据结构定义",
+	"description": "定义学术论文相关信息的数据结构",
+	"type": "object",
+	"properties": {
+		"list": {
+			"description": "论文列表",
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"description": "论文唯一标识",
+						"type": "string"
+					},
+					"name": {
+						"description": "论文中文名称",
+						"type": "string"
+					},
+					"englishName": {
+						"description": "论文英文名称",
+						"type": "string"
+					},
+					"abstract": {
+						"description": "论文摘要",
+						"type": "string"
+					},
+					"authors": {
+						"description": "作者列表",
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					},
+					"download": {
+						"description": "下载链接信息",
+						"type": "object",
+						"properties": {
+							"caj": {
+								"description": "CAJ格式下载链接",
+								"type": "string"
+							},
+							"link": {
+								"description": "普通链接",
+								"type": "string"
+							},
+							"pdf": {
+								"description": "PDF格式下载链接",
+								"type": "string"
+							}
+						},
+						"required": ["caj", "link", "pdf"]
+					},
+					"info": {
+						"description": "论文发表信息",
+						"type": "object",
+						"properties": {
+							"doi": {
+								"description": "DOI号",
+								"type": "string"
+							},
+							"journal": {
+								"description": "期刊名称",
+								"type": "string"
+							},
+							"volume": {
+								"description": "卷号",
+								"type": "string"
+							},
+							"classificationNumber": {
+								"description": "分类号",
+								"type": "string"
+							}
+						},
+						"required": ["doi", "journal", "volume", "classificationNumber"]
+					},
+					"time": {
+						"description": "发表时间",
+						"type": "string"
+					},
+					"keywords": {
+						"description": "关键词列表",
+						"type": "array",
+						"items": {
+							"type": "string"
+						}
+					}
+				},
+				"required": [
+					"id",
+					"name",
+					"englishName",
+					"abstract",
+					"authors",
+					"download",
+					"info",
+					"time",
+					"keywords"
+				]
+			}
+		}
+	},
+	"required": ["list"]
+}

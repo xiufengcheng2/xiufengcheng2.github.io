@@ -1,0 +1,27 @@
+---
+import course from "#/course.json"
+import { Card } from "@/components/card"
+import { CourseRoadmap, ResultList } from "@/components/course"
+import { Title } from "@/components/ui/title"
+import DetailLayout from "@/layouts/detail-layout.astro"
+
+export function getStaticPaths() {
+	const courses = [...course.bachelor, ...course.master] as Course[]
+	const paths = courses.map(course => ({
+		params: {
+			id: course.id,
+		},
+	}))
+	return paths
+}
+
+const { id } = Astro.params
+const courseTarget = [...course.bachelor, ...course.master].find(target => target.id === id)
+---
+
+<DetailLayout content="course" title={courseTarget?.name ?? ""}>
+	<Title subtitle={courseTarget?.period ?? ""} title={courseTarget?.name ?? ""} />
+	<Card content={courseTarget?.description ?? ""} icon="i-mingcute-pen-line" title="课程概述" />
+	<CourseRoadmap roadmap={courseTarget?.roadmap ?? []} />
+	<ResultList results={courseTarget?.results ?? []} />
+</DetailLayout>

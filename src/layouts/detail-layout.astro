@@ -1,0 +1,16 @@
+---
+import MainLayout from "@/layouts/main-layout.astro"
+
+interface Props {
+	content: "book" | "course" | "paper" | "project"
+	title: string
+}
+
+const { content, title } = Astro.props
+---
+
+<MainLayout slug={content} title={`${title}｜程秀峰`}>
+	<main class="mt-2.5 w-full grow">
+		<slot />
+	</main>
+</MainLayout>

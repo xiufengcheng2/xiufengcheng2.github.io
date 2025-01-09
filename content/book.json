@@ -1,0 +1,111 @@
+{
+	"$schema": "../schemas/book.schema.json",
+	"list": [
+		{
+			"id": "1",
+			"authors": ["程秀峰"],
+			"info": "程秀峰, 严中华主编；ISBN/ISSN：978-7-03-072957-6；价格：CNY78.00；出版：北京 :科学出版社 ,2022；中图分类号：TP274；责任者：程秀峰 主编 严中华 主编",
+			"download": {
+				"link": "https://www.baidu.com",
+				"pdf": "https://www.baidu.com",
+				"code": "https://www.baidu.com",
+				"caj": "https://www.baidu.com"
+			},
+			"description": "本书共12章，内容包含大数据的基本概念，分布式基础架构Hadoop，分布式文件系统HDFS，NoSQL数据库，分布式计算框架MapReduce，大数据基本分析方法 (聚类、分类与预测)，大数据在搜索引擎、推荐系统以及其他行业的应用。",
+			"content": [
+				{
+					"chapter": "第一章",
+					"title": "走向法治的互联网空间"
+				},
+				{
+					"chapter": "第二章",
+					"title": "互联网空间的中间责任及其限制"
+				},
+				{
+					"chapter": "第三章",
+					"title": "互联网上侵权案件的管辖与法律适用问题研究"
+				},
+				{
+					"chapter": "第四章",
+					"title": "名誉权与商誉法律保护的基本问题"
+				},
+				{
+					"chapter": "第五章",
+					"title": "互联网上名誉权和商誉侵害:实例分析与理论探讨"
+				},
+				{
+					"chapter": "第六章",
+					"title": "隐私权法律保护的基本问题"
+				},
+				{
+					"chapter": "第七章",
+					"title": "个人数据资料隐私保护:比较法上的考察"
+				},
+				{
+					"chapter": "第八章",
+					"title": "网站经营者的隐私权保护义务与侵权责任"
+				},
+				{
+					"chapter": "第九章",
+					"title": "网络空间威胁隐私权的技术方面与法律对策"
+				},
+				{
+					"chapter": "第十章",
+					"title": "电子邮件隐私权保护与侵权责任"
+				},
+				{
+					"chapter": "第十一章",
+					"title": "互联网上侵害著作权案件的审判探讨"
+				}
+			],
+			"image": "/images/book/1.png",
+			"publisher": "科学出版社",
+			"name": "大数据技术原理与应用",
+			"year": "2022.6"
+		},
+		{
+			"id": "2",
+			"authors": ["程秀峰"],
+			"content": [
+				{
+					"chapter": "第一章",
+					"title": "走向法治的互联网空间"
+				}
+			],
+			"description": "本书共12章，内容包含大数据的基本概念，分布式基础架构Hadoop，分布式文件系统HDFS，NoSQL数据库，分布式计算框架MapReduce，大数据基本分析方法 (聚类、分类与预测)，大数据在搜索引擎、推荐系统以及其他行业的应用。",
+			"info": "程秀峰, 严中华主编；ISBN/ISSN：978-7-03-072957-6；价格：CNY78.00；出版：北京 :科学出版社 ,2022；中图分类号：TP274；责任者：程秀峰 主编 严中华 主编",
+			"download": {
+				"link": "https://www.baidu.com",
+				"pdf": "https://www.baidu.com",
+				"code": "https://www.baidu.com",
+				"caj": "https://www.baidu.com"
+			},
+			"image": "/images/book/2.png",
+			"publisher": "武汉理工大学图书馆",
+			"name": "基于用户行为的图书馆数字资源语义聚合研究",
+			"year": "2015.6"
+		},
+		{
+			"id": "3",
+			"authors": ["程秀峰"],
+			"description": "本书共12章，内容包含大数据的基本概念，分布式基础架构Hadoop，分布式文件系统HDFS，NoSQL数据库，分布式计算框架MapReduce，大数据基本分析方法 (聚类、分类与预测)，大数据在搜索引擎、推荐系统以及其他行业的应用。",
+			"info": "程秀峰, 严中华主编；ISBN/ISSN：978-7-03-072957-6；价格：CNY78.00；出版：北京 :科学出版社 ,2022；中图分类号：TP274；责任者：程秀峰 主编 严中华 主编",
+			"download": {
+				"link": "https://www.baidu.com",
+				"pdf": "https://www.baidu.com",
+				"code": "https://www.baidu.com",
+				"caj": "https://www.baidu.com"
+			},
+			"image": "/images/book/3.png",
+			"publisher": "武汉理工大学图书馆",
+			"name": "基于用户行为的图书馆数字资源语义聚合研究",
+			"content": [
+				{
+					"chapter": "第一章",
+					"title": "走向法治的互联网空间"
+				}
+			],
+			"year": "2015.6"
+		}
+	]
+}

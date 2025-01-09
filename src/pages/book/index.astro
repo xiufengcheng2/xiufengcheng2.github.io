@@ -1,0 +1,11 @@
+---
+import book from "#/book.json"
+import { BookList } from "@/components/book"
+import BookLayout from "@/layouts/book-layout.astro"
+
+const books = book.list as Book[]
+---
+
+<BookLayout>
+	<BookList books={books} />
+</BookLayout>

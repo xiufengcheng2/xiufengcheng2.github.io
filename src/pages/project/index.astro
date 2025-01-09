@@ -1,0 +1,49 @@
+---
+import project from "#/project.json"
+import { Awards, OtherItem, Projects, SectionPart } from "@/components/project"
+import { Divider } from "@/components/ui/divider"
+import { Title } from "@/components/ui/title"
+import ProjectLayout from "@/layouts/project-layout.astro"
+---
+
+<ProjectLayout>
+	<Title title="科学研究" />
+	<SectionPart>
+		<Projects projects={project.science["take-part"]} type="参与" />
+		<Projects projects={project.science.host} type="主持" />
+	</SectionPart>
+	<Divider />
+	<Title title="教学项目" />
+	<SectionPart>
+		<Projects projects={project.teach["take-part"]} type="参与" />
+		<Projects projects={project.teach.host} type="主持" />
+	</SectionPart>
+	<Divider />
+	<Title title="竞赛" />
+	<SectionPart>
+		<Awards awards={project.award} />
+	</SectionPart>
+	<Divider />
+	<Title title="其他" />
+	<SectionPart>
+		<OtherItem
+			description="开设课程: C语言、数据结构、算法设计与分析、.net程序设计、软件工程。5门技术课程，粉丝数达到6816个，获点赞8542个，播放量51.3万"
+			other={{
+				image: "images/project/bilibili.png",
+				link: "https://space.bilibili.com/507431787",
+				name: "哔哩哔哩",
+				platform: "bilibili",
+			}}
+		/>
+		<OtherItem
+			description="代码仓库建设，集中存储教学文档、资料、代码、学生反馈、问题讨论、资源链接等功能。"
+			other={{
+				image: "images/project/github.png",
+				link: "https://github.com/xiufengcheng",
+				name: "GitHub",
+				platform: "github",
+			}}
+		/>
+	</SectionPart>
+</ProjectLayout>
+

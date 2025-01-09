@@ -1,0 +1,73 @@
+---
+import Image from "astro/components/Image.astro"
+
+import blobSvg from "@/assets/image/blob.svg"
+import bookPng from "@/assets/image/book.png"
+import coursePng from "@/assets/image/course.png"
+import paperPng from "@/assets/image/paper.png"
+import projectPng from "@/assets/image/project.png"
+import { SectionCard } from "@/components/section-card"
+import MainLayout from "@/layouts/main-layout.astro"
+
+interface Props {
+	slug: Slugs
+	title: string
+}
+
+const cards = [
+	{
+		description: "探索我所教授的一系列计算机科学课程。每个课程都详细介绍了学习目标、教学内容和期望成果。",
+		image: coursePng,
+		link: "/course",
+		name: "课程",
+		variant: "right",
+	},
+	{
+		description: "展示了我在学术和实践领域中的项目经验，包括我使用的技术和取得的成果。",
+		image: projectPng,
+		link: "/project",
+		name: "项目",
+		variant: "left",
+	},
+	{
+		description: "这个板块列出了我所写的书籍和推荐阅读，这些书籍将帮助你深入理解信息管理和其他科学技术的各个方面。",
+		image: bookPng,
+		link: "/book",
+		name: "书籍",
+		variant: "right",
+	},
+	{
+		description: "在这里，你可以阅读我在人工智能、数据科学等领域的研究论文，了解我在这些领域的最新发现和研究成果。",
+		image: paperPng,
+		link: "/paper",
+		name: "论文",
+		variant: "left",
+	},
+]
+
+const { slug, title } = Astro.props
+---
+
+<MainLayout slug={slug} title={title}>
+	<main
+		class="relative mx-auto w-[1064px] grow"
+	>
+		<Image alt="Blob" class="absolute -right-[268px] -top-[300px] -z-10 w-[790px]" loading="eager" src={blobSvg} />
+		<slot />
+		<content class="mt-[120px] flex flex-col items-center">
+			<h2 class="p-2.5 text-5xl font-semibold text-theme">个人成果</h2>
+			<span class="w-25 h-1 rounded-sm bg-[#393939]"></span>
+			<div class="flex flex-col gap-12 pt-16">
+				{cards.map(card => (
+					<SectionCard
+						description={card.description}
+						image={card.image}
+						link={card.link}
+						name={card.name}
+						variant={card.variant as "left" | "right"}
+					/>
+				))}
+			</div>
+		</content>
+	</main>
+</MainLayout>

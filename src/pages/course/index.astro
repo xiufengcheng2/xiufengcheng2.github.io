@@ -1,0 +1,12 @@
+---
+import courses from "#/course.json"
+import { CourseList } from "@/components/course"
+import { Divider } from "@/components/ui/divider"
+import CourseLayout from "@/layouts/course-layout.astro"
+---
+
+<CourseLayout>
+	<CourseList courses={courses.bachelor as Course[]} title="本科" />
+	<Divider />
+	<CourseList courses={courses.master as Course[]} title="研究生" />
+</CourseLayout>

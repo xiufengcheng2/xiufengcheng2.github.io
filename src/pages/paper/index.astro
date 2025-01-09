@@ -1,0 +1,13 @@
+---
+import paper from "#/paper.json"
+import { PaperList } from "@/components/paper"
+import { Title } from "@/components/ui/title"
+import PaperLayout from "@/layouts/paper-layout.astro"
+
+const papers = paper.list as Paper[]
+---
+
+<PaperLayout>
+	<Title title="论文列表" />
+	<PaperList papers={papers} />
+</PaperLayout>

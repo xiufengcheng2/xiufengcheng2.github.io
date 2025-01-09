@@ -1,0 +1,15 @@
+---
+import { Image } from "astro:assets"
+
+import contactPng from "@/assets/image/contact.png"
+import MainLayout from "@/layouts/main-layout.astro"
+---
+
+<MainLayout slug="contact" title="联系方式｜程秀峰">
+	<main class="mx-auto flex w-[1064px] grow items-center justify-center gap-20">
+		<content class="flex flex-col justify-center gap-8">
+			<slot />
+		</content>
+		<Image alt="联系方式" class="size-[393px] shrink-0" loading="eager" src={contactPng} />
+	</main>
+</MainLayout>

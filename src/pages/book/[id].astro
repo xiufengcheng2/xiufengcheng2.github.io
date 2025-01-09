@@ -1,0 +1,25 @@
+---
+import book from "#/book.json"
+import { BookContent, BookDetail } from "@/components/book"
+import { Title } from "@/components/ui/title"
+import DetailLayout from "@/layouts/detail-layout.astro"
+
+export function getStaticPaths() {
+	const books = book.list as Book[]
+	const paths = books.map(book => ({
+		params: {
+			id: book.id,
+		},
+	}))
+	return paths
+}
+
+const { id } = Astro.params
+const bookTarget = book.list.find(target => target.id === id)!
+---
+
+<DetailLayout content="book" title={bookTarget?.name ?? ""}>
+	<Title info={bookTarget?.authors ? `作者：${bookTarget.authors.join("、")}` : ""} subtitle={bookTarget?.year ? `（${bookTarget.year}）` : ""} title={bookTarget?.name ?? ""} />
+	<BookDetail book={bookTarget} />
+	<BookContent content={bookTarget?.content ?? []} />
+</DetailLayout>

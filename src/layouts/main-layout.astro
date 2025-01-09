@@ -1,0 +1,29 @@
+---
+import { Footer } from "@/components/ui/footer"
+import { Header } from "@/components/ui/header"
+import BaseLayout from "@/layouts/base-layout.astro"
+
+interface Props {
+	slug: Slugs
+	title: string
+}
+
+const englishName = "Xiufeng Cheng"
+
+const { slug, title } = Astro.props
+---
+
+<BaseLayout title={title}>
+	<Header slug={slug} />
+	<slot />
+	<Footer
+		englishName={englishName}
+		slug={slug}
+		socials={{
+			bilibili: "507431787",
+			email: "xiufengcheng@ccnu.edu.cn",
+			github: "xiufengcheng",
+			qq: "32472889",
+		}}
+	/>
+</BaseLayout>

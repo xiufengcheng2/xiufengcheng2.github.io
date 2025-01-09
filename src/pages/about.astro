@@ -1,0 +1,23 @@
+---
+import EducationExperienceIcon from "@/assets/icon/education-experience.png"
+import WorkExperienceIcon from "@/assets/icon/work-experience.png"
+import { Content, Subtitle, Title } from "@/components/about"
+import AboutLayout from "@/layouts/about-layout.astro"
+---
+
+<AboutLayout>
+	<Title>About me/个人介绍</Title>
+	<Subtitle image={WorkExperienceIcon}>工作经历</Subtitle>
+	<Content>
+		<p>程秀峰，华中师范大学信息管理学院教授，博士生导师，中国科学技术信息研究所博士后，桂子青年学者。</p>
+		<p>长期从事数字图书馆、信息组织与检索、信息行为、推荐系统方向的研究。主持国家社会科学基金一般项目1项、国家自然科学基金2项；教育部人文社会科学项目1项；博士后项目1项；中央高校基本科研项目多项。</p>
+		<p>参与国家社科重大项目在内的多个国家级项目。在《Information Systems Research》、《Internet Research》、《Electronic Library》、《情报学报》、《图书情报工作》等情报学国内外刊物共发表论文50余篇。</p>
+		<p>担任《数字分析与知识发现》、《情报科学》、《Electronic Library》、《Library Hi-tech》等多个期刊审稿人。担任《数据分析与知识发现》、《情报科学》、等期刊审稿人、长期担任《程序设计基础》、《数据结构》、《算法分析与设计》、《大数据管理与应用》、《推荐系统》等专业核心课程的主讲教师。已出版著作2部，教材1部，软著10余项。</p>
+	</Content>
+	<Subtitle image={EducationExperienceIcon}>教育经历</Subtitle>
+	<Content>
+		<p>2013年获情报学博士学位，2015年-今信息管理学院副教授，硕士生导师，桂子青年学者。</p>
+		<p>已主持国家自然科学基金项目2项（青年、面上），教育部人文社会科学研究项目1项，博士后基金项目1项，校级研究项目2项（丹桂、自由探索），校级教研教改项目1项，校级信息化项目1项。</p>
+		<p>中国科学技术信息研究所资源中心博士后（2018-2023）</p>
+	</Content>
+</AboutLayout>

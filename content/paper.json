@@ -1,0 +1,1097 @@
+{
+	"$schema": "../schemas/paper.schema.json",
+	"list": [
+		{
+			"name": "大语言模型对学术论文评价的可利用性探讨",
+			"englishName": "Discussion on the Usability of Large Language Models for Academic Paper Evaluation",
+			"abstract": "大语言模型对学术论文评价的可利用性探讨",
+			"id": "1",
+			"content": "大语言模型对学术论文评价的可利用性探讨",
+			"authors": ["程秀峰", "李嘉琦", "杨金庆"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "图书情报工作",
+				"volume": "68",
+				"classificationNumber": ""
+			},
+			"time": "2024",
+			"keywords": ["大语言模型", "学术论文评价", "人工智能", "文献计量", "自然语言处理"]
+		},
+		{
+			"name": "智慧图书馆建设过程中技术元素分析及知识图谱构建研究",
+			"englishName": "Research on Technical Elements Analysis and Knowledge Graph Construction in Smart Library Development",
+			"abstract": "智慧图书馆建设过程中技术元素分析及知识图谱构建研究",
+			"id": "2",
+			"content": "智慧图书馆建设过程中技术元素分析及知识图谱构建研究",
+			"authors": ["程秀峰", "曹琪", "蒋开宸"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "图书情报工作",
+				"volume": "68",
+				"classificationNumber": ""
+			},
+			"time": "2024",
+			"keywords": ["智慧图书馆", "知识图谱", "技术分析", "图书馆信息化", "智能服务"]
+		},
+		{
+			"name": "面向技艺传承的传统建筑古籍的知识组织",
+			"englishName": "Knowledge Organization of Traditional Architecture Ancient Books for Skills Inheritance",
+			"abstract": "面向技艺传承的传统建筑古籍的知识组织",
+			"id": "3",
+			"content": "面向技艺传承的传统建筑古籍的知识组织",
+			"authors": ["程秀峰", "田园", "舒科慧"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "图书馆论坛",
+				"volume": "44",
+				"classificationNumber": ""
+			},
+			"time": "2024",
+			"keywords": ["传统建筑", "古籍整理", "知识组织", "技艺传承", "文化遗产保护"]
+		},
+		{
+			"name": "基于科学知识演化模式的自我中心网络视角研究",
+			"englishName": "Understanding scientific knowledge evolution patterns based on egocentric network perspective",
+			"abstract": "基于科学知识演化模式的自我中心网络视角研究",
+			"id": "4",
+			"content": "基于科学知识演化模式的自我中心网络视角研究",
+			"authors": ["Yang Jinqing", "Cheng Xiufeng", "Ye Guanghui"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "Scientometrics",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2024",
+			"keywords": ["科学知识", "知识演化", "自我中心网络", "网络分析", "知识图谱"]
+		},
+		{
+			"name": "基于功能结构视角的研究者关键词采用行为模式研究",
+			"englishName": "Understanding the keyword adoption behavior patterns of researchers from a functional structure perspective",
+			"abstract": "基于功能结构视角的研究者关键词采用行为模式研究",
+			"id": "5",
+			"content": "基于功能结构视角的研究者关键词采用行为模式研究",
+			"authors": ["Yang Jinqing", "Liu Zhifeng", "Cheng Xiufeng"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "Scientometrics",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2024",
+			"keywords": ["关键词分析", "研究者行为", "功能结构", "文献计量", "学术研究"]
+		},
+		{
+			"name": "融合Word2Vec的半积累引用共词网络的领域主题演化研究",
+			"englishName": "Research on Domain Topic Evolution Based on Semi-Cumulative Citation Co-word Network Integrated with Word2Vec",
+			"abstract": "融合Word2Vec的半积累引用共词网络的领域主题演化研究",
+			"id": "6",
+			"content": "融合Word2Vec的半积累引用共词网络的领域主题演化研究",
+			"authors": ["程秀峰", "邹晶晶", "叶光辉"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "情报学报",
+				"volume": "42",
+				"classificationNumber": ""
+			},
+			"time": "2023",
+			"keywords": ["Word2Vec", "引用分析", "共词网络", "主题演化", "文本挖掘"]
+		},
+		{
+			"name": "隐私保护与数据收集之间的平衡：基于理论驱动的信息技术解决方案的实地实验检验",
+			"englishName": "Achieving a Balance Between Privacy Protection and Data Collection: A Field Experimental Examination of a Theory-Driven Information Technology Solution",
+			"abstract": "隐私保护与数据收集之间的平衡：基于理论驱动的信息技术解决方案的实地实验检验",
+			"id": "7",
+			"content": "隐私保护与数据收集之间的平衡：基于理论驱动的信息技术解决方案的实地实验检验",
+			"authors": ["Liu Bailing", "Pavlou Paul", "Cheng Xiufeng"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "Information Systems Research",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2022",
+			"keywords": ["隐私保护", "数据收集", "信息技术", "实地实验", "用户行为"]
+		},
+		{
+			"name": "开发者社区中意见领袖特征值的影响力研究",
+			"englishName": "Research on the Influence of Opinion Leader Characteristics in Developer Communities",
+			"abstract": "开发者社区中意见领袖特征值的影响力研究",
+			"id": "8",
+			"content": "开发者社区中意见领袖特征值的影响力研究",
+			"authors": ["程秀峰", "张梦圆", "丁芬", "陆颖颖"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "现代情报",
+				"volume": "42",
+				"classificationNumber": ""
+			},
+			"time": "2022",
+			"keywords": ["开发者社区", "意见领袖", "影响力分析", "社交网络", "用户行为"]
+		},
+		{
+			"name": "基于面部表情识别的阅读情境匹配与体验优化研究",
+			"englishName": "Research on Reading Context Matching and Experience Optimization Based on Facial Expression Recognition",
+			"abstract": "基于面部表情识别的阅读情境匹配与体验优化研究",
+			"id": "9",
+			"content": "基于面部表情识别的阅读情境匹配与体验优化研究",
+			"authors": ["程秀峰", "丁芬", "张梦圆", "贾超"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "图书馆学研究",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2021",
+			"keywords": ["面部表情识别", "阅读体验", "情境匹配", "用户体验", "人机交互"]
+		},
+		{
+			"name": "机器人视觉模型：基于Xception和轻量级梯度提升机",
+			"englishName": "A Robotic Vision Model via Xception and Light Gradient Boosting Machine",
+			"abstract": "机器人视觉模型：基于Xception和轻量级梯度提升机",
+			"id": "10",
+			"content": "机器人视觉模型：基于Xception和轻量级梯度提升机",
+			"authors": ["Hu Fang", "Huang Mingfang", "Liu Jia", "Yan Xingyu", "Cheng Xiufeng"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "IEEE Computer Society Computers, Software, and Applications Conference",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2021",
+			"keywords": ["机器人视觉", "Xception", "梯度提升机", "计算机视觉", "深度学习"]
+		},
+		{
+			"name": "下一代图书馆服务平台LSP的跨界协同机制研究",
+			"englishName": "Research on Cross-boundary Collaborative Mechanism of Next Generation Library Service Platform (LSP)",
+			"abstract": "下一代图书馆服务平台LSP的跨界协同机制研究",
+			"id": "11",
+			"content": "下一代图书馆服务平台LSP的跨界协同机制研究",
+			"authors": ["程秀峰", "丁芬", "李倩"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "知识管理论坛",
+				"volume": "6",
+				"classificationNumber": ""
+			},
+			"time": "2021",
+			"keywords": ["图书馆服务平台", "LSP", "跨界协同", "服务创新", "知识管理"]
+		},
+		{
+			"name": "集成定性模拟和实证的大众阅读平台信息订阅意愿影响机制研究",
+			"englishName": "Research on Information Subscription Willingness Mechanism of Public Reading Platform Integrating Qualitative Simulation and Empirical Study",
+			"abstract": "集成定性模拟和实证的大众阅读平台信息订阅意愿影响机制研究",
+			"id": "12",
+			"content": "集成定性模拟和实证的大众阅读平台信息订阅意愿影响机制研究",
+			"authors": ["程秀峰", "邹晶晶", "胡安蕾", "叶飞"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "图书情报工作",
+				"volume": "65",
+				"classificationNumber": ""
+			},
+			"time": "2021",
+			"keywords": ["阅读平台", "信息订阅", "用户行为", "定性模拟", "实证研究"]
+		},
+		{
+			"name": "基于众包的图书馆会议资源建设模式研究",
+			"englishName": "Research on Library Conference Resource Construction Model Based on Crowdsourcing",
+			"abstract": "基于众包的图书馆会议资源建设模式研究",
+			"id": "13",
+			"content": "基于众包的图书馆会议资源建设模式研究",
+			"authors": ["罗小路", "叶飞", "程秀峰"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "数字图书馆论坛",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2021",
+			"keywords": ["众包", "会议资源", "图书馆建设", "资源管理", "协同采集"]
+		},
+		{
+			"name": "融合主题模型与决策树的跨地区专利合作关系发现与推荐",
+			"englishName": "Discovery and Recommendation of Cross-regional Patent Cooperation Relationships Integrating Topic Model and Decision Tree",
+			"abstract": "融合主题模型与决策树的跨地区专利合作关系发现与推荐",
+			"id": "14",
+			"content": "融合主题模型与决策树的跨地区专利合作关系发现与推荐",
+			"authors": ["陈浩", "张梦毅", "程秀峰"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "数据分析与知识发现",
+				"volume": "5",
+				"classificationNumber": ""
+			},
+			"time": "2021",
+			"keywords": ["专利分析", "主题模型", "决策树", "跨地区合作", "推荐系统"]
+		},
+		{
+			"name": "基于微服务架构的文献信息资源保障平台构建研究",
+			"englishName": "Research on Construction of Literature Information Resource Support Platform Based on Microservice Architecture",
+			"abstract": "基于微服务架构的文献信息资源保障平台构建研究",
+			"id": "15",
+			"content": "基于微服务架构的文献信息资源保障平台构建研究",
+			"authors": ["程秀峰", "丁芬", "夏立新"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "数字图书馆论坛",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2021",
+			"keywords": ["微服务架构", "文献资源", "信息系统", "平台构建", "资源保障"]
+		},
+		{
+			"name": "基于用户画像的图书馆智慧参考咨询服务模式研究",
+			"englishName": "Research on Smart Reference Consultation Service Model of Library Based on User Portrait",
+			"abstract": "基于用户画像的图书馆智慧参考咨询服务模式研究",
+			"id": "16",
+			"content": "基于用户画像的图书馆智慧参考咨询服务模式研究",
+			"authors": ["程秀峰", "周玮珽", "张小龙", "邹晶晶"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "图书馆学研究",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2021",
+			"keywords": ["用户画像", "智慧服务", "参考咨询", "图书馆服务", "个性化推荐"]
+		},
+		{
+			"name": "基于情境感知的电商平台推荐系统框架研究",
+			"englishName": "Research on E-commerce Platform Recommendation System Framework Based on Context Awareness",
+			"abstract": "基于情境感知的电商平台推荐系统框架研究",
+			"id": "17",
+			"content": "基于情境感知的电商平台推荐系统框架研究",
+			"authors": ["程秀峰", "张孜铭"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "情报理论与实践",
+				"volume": "44",
+				"classificationNumber": ""
+			},
+			"time": "2021",
+			"keywords": ["情境感知", "电子商务", "推荐系统", "个性化服务", "用户体验"]
+		},
+		{
+			"name": "面向图书馆智慧服务的情境感知技术研究综述",
+			"englishName": "Review of Context-Aware Technology Research for Library Smart Services",
+			"abstract": "面向图书馆智慧服务的情境感知技术研究综述",
+			"id": "18",
+			"content": "面向图书馆智慧服务的情境感知技术研究综述",
+			"authors": ["程秀峰", "周玮珽", "张小龙"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "农业图书情报学报",
+				"volume": "32",
+				"classificationNumber": ""
+			},
+			"time": "2020",
+			"keywords": ["情境感知", "智慧图书馆", "文献综述", "智能服务", "技术应用"]
+		},
+		{
+			"name": "知识融合视角下用户行为数据采集与共享机制研究",
+			"englishName": "Research on User Behavior Data Collection and Sharing Mechanism from Knowledge Integration Perspective",
+			"abstract": "知识融合视角下用户行为数据采集与共享机制研究",
+			"id": "19",
+			"content": "知识融合视角下用户行为数据采集与共享机制研究",
+			"authors": ["程秀峰", "肖兵", "夏立新"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "情报科学",
+				"volume": "38",
+				"classificationNumber": ""
+			},
+			"time": "2020",
+			"keywords": ["用户行为", "数据采集", "知识融合", "数据共享", "机制研究"]
+		},
+		{
+			"name": "虚拟化技术在《数据结构》课堂设计中的应用",
+			"englishName": "Application of Virtualization Technology in Data Structure Course Design",
+			"abstract": "虚拟化技术在《数据结构》课堂设计中的应用",
+			"id": "20",
+			"content": "虚拟化技术在《数据结构》课堂设计中的应用",
+			"authors": ["程秀峰", "罗小路", "熊回香", "叶光辉", "叶飞"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "中国教育信息化",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2020",
+			"keywords": ["虚拟化技术", "数据结构", "教学设计", "课程改革", "教育信息化"]
+		},
+		{
+			"name": "技术与人文并重：智慧图书馆实现技术路径及构建模式探析",
+			"englishName": "Balancing Technology and Humanities: Analysis of Technical Path and Construction Mode of Smart Library",
+			"abstract": "技术与人文并重：智慧图书馆实现技术路径及构建模式探析",
+			"id": "21",
+			"content": "技术与人文并重：智慧图书馆实现技术路径及构建模式探析",
+			"authors": ["杨金庆", "程秀峰"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "情报理论与实践",
+				"volume": "43",
+				"classificationNumber": ""
+			},
+			"time": "2020",
+			"keywords": ["智慧图书馆", "人文关怀", "技术路径", "服务模式", "图书馆建设"]
+		},
+		{
+			"name": "基于情境感知的资源推荐研究综述与实践进展",
+			"englishName": "Review and Practical Progress of Resource Recommendation Research Based on Context Awareness",
+			"abstract": "基于情境感知的资源推荐研究综述与实践进展",
+			"id": "22",
+			"content": "基于情境感知的资源推荐研究综述与实践进展",
+			"authors": ["杨金庆", "程秀峰", "周玮珽"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "现代情报",
+				"volume": "40",
+				"classificationNumber": ""
+			},
+			"time": "2020",
+			"keywords": ["情境感知", "资源推荐", "文献综述", "实践研究", "智能推荐"]
+		},
+		{
+			"name": "中国传统织锦西兰卡普的语义描述与解释",
+			"englishName": "Interpreting and semantically describing Chinese traditional brocade: Xilankapu",
+			"abstract": "中国传统织锦西兰卡普的语义描述与解释",
+			"id": "23",
+			"content": "中国传统织锦西兰卡普的语义描述与解释",
+			"authors": ["Cheng Xiufeng", "Yang Jinqing", "Jiang Ling", "Hu Anlei"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "Electronic Library",
+				"volume": "37",
+				"classificationNumber": ""
+			},
+			"time": "2019",
+			"keywords": ["传统织锦", "西兰卡普", "语义描述", "文化遗产", "数字化保护"]
+		},
+		{
+			"name": "具有不完善私有信号结构的非贝叶斯社会学习",
+			"englishName": "Non-Bayesian Social Learning With Imperfect Private Signal Structure",
+			"abstract": "具有不完善私有信号结构的非贝叶斯社会学习",
+			"id": "24",
+			"content": "具有不完善私有信号结构的非贝叶斯社会学习",
+			"authors": ["Liu Sannyuya", "Yan Zhonghua", "Cheng Xiufeng", "Zhao Liang"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "IEEE Access",
+				"volume": "7",
+				"classificationNumber": ""
+			},
+			"time": "2019",
+			"keywords": ["社会学习", "非贝叶斯", "信号处理", "学习算法", "信息传播"]
+		},
+		{
+			"name": "基于朴素贝叶斯算法与情境感知的协同推荐系统",
+			"englishName": "A Context-Aware Collaborative Recommendation System Based on Naive Bayes Algorithm",
+			"abstract": "基于朴素贝叶斯算法与情境感知的协同推荐系统",
+			"id": "25",
+			"content": "基于朴素贝叶斯算法与情境感知的协同推荐系统",
+			"authors": ["程秀峰", "范晓莹", "杨金庆"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "现代情报",
+				"volume": "39",
+				"classificationNumber": ""
+			},
+			"time": "2019",
+			"keywords": ["朴素贝叶斯", "情境感知", "协同推荐", "机器学习", "个性化服务"]
+		},
+		{
+			"name": "虚拟现实技术在非遗信息资源展示中的应用调查研究",
+			"englishName": "Research on Application of Virtual Reality Technology in Intangible Cultural Heritage Information Resource Display",
+			"abstract": "虚拟现实技术在非遗信息资源展示中的应用调查研究",
+			"id": "26",
+			"content": "虚拟现实技术在非遗信息资源展示中的应用调查研究",
+			"authors": ["程秀峰", "张小龙", "翟姗姗"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "数字图书馆论坛",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2019",
+			"keywords": ["虚拟现实", "非物质文化遗产", "信息展示", "数字化保护", "文化传承"]
+		},
+		{
+			"name": "知识找回场景下推荐系统模拟实现及评价研究",
+			"englishName": "Research on Simulation Implementation and Evaluation of Recommendation System in Knowledge Recovery Scenarios",
+			"abstract": "知识找回场景下推荐系统模拟实现及评价研究",
+			"id": "27",
+			"content": "知识找回场景下推荐系统模拟实现及评价研究",
+			"authors": ["程秀峰", "张孜铭", "孟亚琪", "范晓莹", "杨金庆"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "图书情报工作",
+				"volume": "63",
+				"classificationNumber": ""
+			},
+			"time": "2019",
+			"keywords": ["知识找回", "推荐系统", "系统评价", "知识管理", "信息检索"]
+		},
+		{
+			"name": "我国知识图谱研究演进特征可视化分析",
+			"englishName": "Visual Analysis of Knowledge Graph Research Evolution Characteristics in China",
+			"abstract": "我国知识图谱研究演进特征可视化分析",
+			"id": "28",
+			"content": "我国知识图谱研究演进特征可视化分析",
+			"authors": ["夏立新", "王凯利", "程秀峰"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "情报科学",
+				"volume": "37",
+				"classificationNumber": ""
+			},
+			"time": "2019",
+			"keywords": ["知识图谱", "可视化分析", "研究演进", "文献计量", "学科发展"]
+		},
+		{
+			"name": "网络问答社区中的用户知识转移模式研究",
+			"englishName": "Research on User Knowledge Transfer Patterns in Online Q&A Communities",
+			"abstract": "网络问答社区中的用户知识转移模式研究",
+			"id": "29",
+			"content": "网络问答社区中的用户知识转移模式研究",
+			"authors": ["夏立新", "杨金庆", "叶光辉", "程秀峰"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "情报学报",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2019",
+			"keywords": ["问答社区", "知识转移", "用户行为", "社区互动", "知识共享"]
+		},
+		{
+			"name": "面向服务的情境感知推理框架及其实现",
+			"englishName": "A service-oriented context-awareness reasoning framework and its implementation",
+			"abstract": "面向服务的情境感知推理框架及其实现",
+			"id": "30",
+			"content": "面向服务的情境感知推理框架及其实现",
+			"authors": ["Cheng Xiufeng", "Yang Jinqing", "Xia Lixin"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "Electronic Library",
+				"volume": "36",
+				"classificationNumber": ""
+			},
+			"time": "2018",
+			"keywords": ["情境感知", "服务框架", "推理系统", "系统实现", "智能服务"]
+		},
+		{
+			"name": "基于CART决策树的网络问答社区新兴话题识别研究",
+			"englishName": "Research on Emerging Topic Identification in Online Q&A Communities Based on CART Decision Tree",
+			"abstract": "基于CART决策树的网络问答社区新兴话题识别研究",
+			"id": "31",
+			"content": "基于CART决策树的网络问答社区新兴话题识别研究",
+			"authors": ["程秀峰", "张心怡", "王宁"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "数据分析与知识发现",
+				"volume": "2",
+				"classificationNumber": ""
+			},
+			"time": "2018",
+			"keywords": ["CART决策树", "问答社区", "话题识别", "数据挖掘", "社区分析"]
+		},
+		{
+			"name": "科研数据管理系统中增值服务调查研究",
+			"englishName": "Investigation on Value-added Services in Scientific Research Data Management Systems",
+			"abstract": "科研数据管理系统中增值服务调查研究",
+			"id": "32",
+			"content": "科研数据管理系统中增值服务调查研究",
+			"authors": ["程秀峰", "王雪杰", "夏立新"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "情报科学",
+				"volume": "36",
+				"classificationNumber": ""
+			},
+			"time": "2018",
+			"keywords": ["科研数据", "数据管理", "增值服务", "系统研究", "科研管理"]
+		},
+		{
+			"name": "移动环境下融合情境信息的群组推荐模型研究",
+			"englishName": "Research on Group Recommendation Model Integrating Contextual Information in Mobile Environment",
+			"abstract": "移动环境下融合情境信息的群组推荐模型研究",
+			"id": "33",
+			"content": "移动环境下融合情境信息的群组推荐模型研究",
+			"authors": ["夏立新", "杨金庆", "程秀峰"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "情报学报",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2018",
+			"keywords": ["移动环境", "群组推荐", "情境信息", "推荐模型", "移动计算"]
+		},
+		{
+			"name": "基于PPM模型的移动音乐平台用户转移行为研究",
+			"englishName": "Research on User Transfer Behavior of Mobile Music Platform Based on PPM Model",
+			"abstract": "基于PPM模型的移动音乐平台用户转移行为研究",
+			"id": "34",
+			"content": "基于PPM模型的移动音乐平台用户转移行为研究",
+			"authors": ["夏立新", "王凯利", "程秀峰"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "现代情报",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2018",
+			"keywords": ["PPM模型", "移动音乐", "用户行为", "平台迁移", "行为分析"]
+		},
+		{
+			"name": "需求-技术-治理联合驱动的合作电子商务能力形成机制研究",
+			"englishName": "Research on Formation Mechanism of Cooperative E-commerce Capability Driven by Demand-Technology-Governance Integration",
+			"abstract": "需求-技术-治理联合驱动的合作电子商务能力形成机制研究",
+			"id": "35",
+			"content": "需求-技术-治理联合驱动的合作电子商务能力形成机制研究",
+			"authors": ["池毛毛", "李延晖", "王伟军", "王晓", "程秀峰"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "管理评论",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2018",
+			"keywords": ["电子商务", "能力形成", "需求驱动", "技术治理", "协同管理"]
+		},
+		{
+			"name": "多维度视角下的高校馆移动阅读服务质量评价体系",
+			"englishName": "Quality Evaluation System of Mobile Reading Service in University Libraries from Multi-dimensional Perspective",
+			"abstract": "多维度视角下的高校馆移动阅读服务质量评价体系",
+			"id": "36",
+			"content": "多维度视角下的高校馆移动阅读服务质量评价体系",
+			"authors": ["程秀峰", "毕崇武", "王雪杰"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "图书馆论坛",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2017",
+			"keywords": ["移动阅读", "服务质量", "评价体系", "高校图书馆", "多维度分析"]
+		},
+		{
+			"name": "基于情境感知技术的移动数据自动采集系统设计与实现",
+			"englishName": "Design and Implementation of Mobile Data Automatic Collection System Based on Context-Aware Technology",
+			"abstract": "基于情境感知技术的移动数据自动采集系统设计与实现",
+			"id": "37",
+			"content": "基于情境感知技术的移动数据自动采集系统设计与实现",
+			"authors": ["夏立新", "杨金庆", "程秀峰"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "数据分析与知识发现",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2017",
+			"keywords": ["情境感知", "数据采集", "移动系统", "自动化", "系统设计"]
+		},
+		{
+			"name": "异质网络资源多维度推荐模式研究",
+			"englishName": "Research on Multi-dimensional Recommendation Mode of Heterogeneous Network Resources",
+			"abstract": "异质网络资源多维度推荐模式研究",
+			"id": "38",
+			"content": "异质网络资源多维度推荐模式研究",
+			"authors": ["夏立新", "李重阳", "程秀峰", "翟姗姗"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "图书情报工作",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2017",
+			"keywords": ["异质网络", "资源推荐", "多维度分析", "网络资源", "推荐模式"]
+		},
+		{
+			"name": "基于FRUTAI算法的布尔型移动在线学习资源协同推荐研究",
+			"englishName": "Research on Boolean Mobile Online Learning Resource Collaborative Recommendation Based on FRUTAI Algorithm",
+			"abstract": "基于FRUTAI算法的布尔型移动在线学习资源协同推荐研究",
+			"id": "39",
+			"content": "基于FRUTAI算法的布尔型移动在线学习资源协同推荐研究",
+			"authors": ["夏立新", "毕崇武", "程秀峰"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "图书情报工作",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2017",
+			"keywords": ["FRUTAI算法", "在线学习", "协同推荐", "移动学习", "资源推荐"]
+		},
+		{
+			"name": "高校图书馆微博知识推荐区域比较及可视化研究",
+			"englishName": "Regional Comparison and Visualization Study of University Library Weibo Knowledge Recommendation",
+			"abstract": "高校图书馆微博知识推荐区域比较及可视化研究",
+			"id": "40",
+			"content": "高校图书馆微博知识推荐区域比较及可视化研究",
+			"authors": ["程秀峰", "陈莉玥", "许弘翔"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "情报科学",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2016",
+			"keywords": ["图书馆微博", "知识推荐", "区域比较", "可视化分析", "社交媒体"]
+		},
+		{
+			"name": "基于SNA的舞蹈类非物质文化遗产隐性知识关联研究",
+			"englishName": "Research on Tacit Knowledge Association of Dance Intangible Cultural Heritage Based on SNA",
+			"abstract": "基于SNA的舞蹈类非物质文化遗产隐性知识关联研究",
+			"id": "41",
+			"content": "基于SNA的舞蹈类非物质文化遗产隐性知识关联研究",
+			"authors": ["程秀峰", "毕崇武", "李成龙"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "图书情报工作",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2016",
+			"keywords": ["社会网络分析", "非物质文化遗产", "隐性知识", "舞蹈艺术", "知识关联"]
+		},
+		{
+			"name": "移动用户信息行为研究进展",
+			"englishName": "Research Progress on Mobile User Information Behavior",
+			"abstract": "移动用户信息行为研究进展",
+			"id": "42",
+			"content": "移动用户信息行为研究进展",
+			"authors": ["程秀峰", "毕崇武"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "图书情报工作",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2015",
+			"keywords": ["移动用户", "信息行为", "研究综述", "用户研究", "移动互联网"]
+		},
+		{
+			"name": "基于关联规则的高校图书馆微博关注趋势分析",
+			"englishName": "Analysis of University Library Weibo Following Trends Based on Association Rules",
+			"abstract": "基于关联规则的高校图书馆微博关注趋势分析",
+			"id": "43",
+			"content": "基于关联规则的高校图书馆微博关注趋势分析",
+			"authors": ["程秀峰", "李重阳", "陈莉玥"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "图书情报工作",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2014",
+			"keywords": ["关联规则", "图书馆微博", "趋势分析", "用户关注", "数据挖掘"]
+		},
+		{
+			"name": "基于词词关联矩阵改进的模糊检索研究",
+			"englishName": "Research on Improved Fuzzy Retrieval Based on Word-Word Association Matrix",
+			"abstract": "基于词词关联矩阵改进的模糊检索研究",
+			"id": "44",
+			"content": "基于词词关联矩阵改进的模糊检索研究",
+			"authors": ["夏立新", "程秀峰", "叶光辉"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "情报学报",
+				"volume": "32",
+				"classificationNumber": ""
+			},
+			"time": "2013",
+			"keywords": ["模糊检索", "词词关联", "矩阵分析", "信息检索", "检索优化"]
+		},
+		{
+			"name": "基于语义的馆藏资源深度聚合方法研究",
+			"englishName": "Research on Semantic-based Deep Aggregation Method for Library Collection Resources",
+			"abstract": "基于语义的馆藏资源深度聚合方法研究",
+			"id": "45",
+			"content": "基于语义的馆藏资源深度聚合方法研究",
+			"authors": ["李劲", "程秀峰", "宋红文"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "情报科学",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2013",
+			"keywords": ["语义分析", "资源聚合", "馆藏资源", "深度处理", "知识组织"]
+		},
+		{
+			"name": "面向语义检索的数字图书馆资源聚合模式分析",
+			"englishName": "Analysis of Digital Library Resource Aggregation Mode for Semantic Retrieval",
+			"abstract": "面向语义检索的数字图书馆资源聚合模式分析",
+			"id": "46",
+			"content": "面向语义检索的数字图书馆资源聚合模式分析",
+			"authors": ["伍革新", "程秀峰"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "图书馆建设",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2013",
+			"keywords": ["语义检索", "数字图书馆", "资源聚合", "检索模式", "信息组织"]
+		},
+		{
+			"name": "基于用户兴趣聚类的电子政务知识服务研究",
+			"englishName": "Research on E-government Knowledge Service Based on User Interest Clustering",
+			"abstract": "基于用户兴趣聚类的电子政务知识服务研究",
+			"id": "47",
+			"content": "基于用户兴趣聚类的电子政务知识服务研究",
+			"authors": ["伍革新", "翟姗姗", "程秀峰"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "情报科学",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2013",
+			"keywords": ["电子政务", "知识服务", "用户兴趣", "聚类分析", "个性化服务"]
+		},
+		{
+			"name": "基于电子政务平台查询关键词共现多维可视化聚类分析研究",
+			"englishName": "Research on Multi-dimensional Visual Clustering Analysis of Query Keyword Co-occurrence in E-government Platform",
+			"abstract": "基于电子政务平台查询关键词共现多维可视化聚类分析研究",
+			"id": "48",
+			"content": "基于电子政务平台查询关键词共现多维可视化聚类分析研究",
+			"authors": ["夏立新", "程秀峰", "桂思思"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "情报学报",
+				"volume": "31",
+				"classificationNumber": ""
+			},
+			"time": "2012",
+			"keywords": ["电子政务", "关键词共现", "可视化分析", "聚类分析", "多维分析"]
+		},
+		{
+			"name": "基于主题图的学术博客知识组织模型研究",
+			"englishName": "Research on Academic Blog Knowledge Organization Model Based on Topic Maps",
+			"abstract": "基于主题图的学术博客知识组织模型研究",
+			"id": "49",
+			"content": "基于主题图的学术博客知识组织模型研究",
+			"authors": ["胡娟", "程秀峰", "叶光辉"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "图书情报工作",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2012",
+			"keywords": ["主题图", "学术博客", "知识组织", "知识模型", "学术交流"]
+		},
+		{
+			"name": "基于XML技术标准的主题图构建及应用",
+			"englishName": "Construction and Application of Topic Maps Based on XML Technical Standards",
+			"abstract": "基于XML技术标准的主题图构建及应用",
+			"id": "50",
+			"content": "基于XML技术标准的主题图构建及应用",
+			"authors": ["桂思思", "程秀峰"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "信息安全与技术",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2012",
+			"keywords": ["XML技术", "主题图", "技术标准", "知识表示", "信息组织"]
+		},
+		{
+			"name": "教师自动分配应用系统",
+			"englishName": "An Automatic Assignation Application for Faculty Members",
+			"abstract": "教师自动分配应用系统",
+			"id": "51",
+			"content": "教师自动分配应用系统",
+			"authors": ["Cheng Xiufeng", "Zhu Song"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "International Conference on Electronic & Mechanical Engineering and Information Technology",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2011",
+			"keywords": ["自动分配", "教师管理", "应用系统", "资源调度", "智能分配"]
+		},
+		{
+			"name": "基于分布式的直方图检索方法研究及实现",
+			"englishName": "Research and Implementation of Distributed Histogram Retrieval Method",
+			"abstract": "基于分布式的直方图检索方法研究及实现",
+			"id": "52",
+			"content": "基于分布式的直方图检索方法研究及实现",
+			"authors": ["程秀峰", "祝颂", "夏立新"],
+			"download": {
+				"caj": "",
+				"link": "",
+				"pdf": ""
+			},
+			"info": {
+				"doi": "",
+				"journal": "现代图书情报技术",
+				"volume": "",
+				"classificationNumber": ""
+			},
+			"time": "2011",
+			"keywords": ["分布式系统", "直方图检索", "检索方法", "系统实现", "信息检索"]
+		}
+	]
+}

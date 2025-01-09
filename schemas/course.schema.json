@@ -1,0 +1,113 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "课程数据结构定义",
+	"description": "定义本科生和研究生课程的数据结构",
+	"type": "object",
+	"properties": {
+		"bachelor": {
+			"description": "本科生课程列表",
+			"type": "array",
+			"items": {
+				"$ref": "#/definitions/Course"
+			}
+		},
+		"master": {
+			"description": "研究生课程列表",
+			"type": "array",
+			"items": {
+				"$ref": "#/definitions/Course"
+			}
+		}
+	},
+	"required": ["bachelor", "master"],
+	"definitions": {
+		"Course": {
+			"description": "课程详细信息",
+			"type": "object",
+			"properties": {
+				"id": {
+					"description": "课程唯一标识",
+					"type": "string"
+				},
+				"name": {
+					"description": "课程名称",
+					"type": "string"
+				},
+				"category": {
+					"description": "课程类别",
+					"type": "string",
+					"enum": [
+						"专业基础必修",
+						"专业选修",
+						"图情学硕必修",
+						"图情学硕选修",
+						"校级专业主干课程"
+					]
+				},
+				"cover": {
+					"description": "课程封面图片路径",
+					"type": "string"
+				},
+				"period": {
+					"description": "课程开设时间段",
+					"type": "string"
+				},
+				"description": {
+					"description": "课程简介",
+					"type": "string"
+				},
+				"results": {
+					"description": "课程成果列表",
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"name": {
+								"description": "成果名称",
+								"type": "string"
+							},
+							"item": {
+								"description": "具体成果项目列表",
+								"type": "array",
+								"items": {
+									"type": "object",
+									"properties": {
+										"name": {
+											"description": "项目名称",
+											"type": "string"
+										},
+										"link": {
+											"description": "项目链接",
+											"type": "string"
+										}
+									},
+									"required": ["name"]
+								}
+							}
+						},
+						"required": ["name", "item"]
+					}
+				},
+				"roadmap": {
+					"description": "课程大纲",
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"title": {
+								"description": "章节标题",
+								"type": "string"
+							},
+							"content": {
+								"description": "章节内容",
+								"type": "string"
+							}
+						},
+						"required": ["title"]
+					}
+				}
+			},
+			"required": ["id", "name", "category", "cover", "period", "description", "roadmap"]
+		}
+	}
+}

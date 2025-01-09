@@ -1,0 +1,152 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"title": "项目数据结构定义",
+	"description": "定义科研项目、教学项目和获奖信息的数据结构",
+	"type": "object",
+	"properties": {
+		"science": {
+			"description": "科研项目",
+			"type": "object",
+			"properties": {
+				"take-part": {
+					"description": "参与的项目",
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/Project"
+					}
+				},
+				"host": {
+					"description": "主持的项目",
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/Project"
+					}
+				}
+			},
+			"required": ["take-part", "host"]
+		},
+		"award": {
+			"description": "获奖信息",
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"description": "奖项名称",
+						"type": "string"
+					},
+					"level": {
+						"description": "获奖级别",
+						"type": "string"
+					},
+					"time": {
+						"description": "获奖时间",
+						"type": "string"
+					}
+				},
+				"required": ["name", "level", "time"]
+			}
+		},
+		"teach": {
+			"description": "教学项目",
+			"type": "object",
+			"properties": {
+				"take-part": {
+					"description": "参与的教学项目",
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/Project"
+					}
+				},
+				"host": {
+					"description": "主持的教学项目",
+					"type": "array",
+					"items": {
+						"$ref": "#/definitions/Project"
+					}
+				}
+			},
+			"required": ["take-part", "host"]
+		}
+	},
+	"required": ["science", "award", "teach"],
+	"definitions": {
+		"Project": {
+			"description": "项目详细信息",
+			"type": "object",
+			"properties": {
+				"id": {
+					"description": "项目唯一标识",
+					"type": "string"
+				},
+				"period": {
+					"description": "项目周期",
+					"type": "string"
+				},
+				"name": {
+					"description": "项目名称",
+					"type": "string"
+				},
+				"level": {
+					"description": "项目级别",
+					"type": "string"
+				},
+				"description": {
+					"description": "项目描述",
+					"type": "string"
+				},
+				"roadmap": {
+					"description": "项目路线图",
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"title": {
+								"description": "阶段标题",
+								"type": "string"
+							},
+							"content": {
+								"description": "阶段内容",
+								"type": "string"
+							}
+						},
+						"required": ["title"]
+					}
+				},
+				"results": {
+					"description": "项目成果",
+					"type": "array",
+					"items": {
+						"type": "object",
+						"properties": {
+							"name": {
+								"description": "成果名称",
+								"type": "string"
+							},
+							"item": {
+								"description": "具体成果列表",
+								"type": "array",
+								"items": {
+									"type": "object",
+									"properties": {
+										"name": {
+											"description": "成果项目名称",
+											"type": "string"
+										},
+										"link": {
+											"description": "成果链接",
+											"type": "string"
+										}
+									},
+									"required": ["name"]
+								}
+							}
+						},
+						"required": ["name", "item"]
+					}
+				}
+			},
+			"required": ["id", "period", "name", "level", "description", "roadmap", "results"]
+		}
+	}
+}
